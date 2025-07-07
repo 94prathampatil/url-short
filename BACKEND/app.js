@@ -31,6 +31,6 @@ app.use(errorHandler)
 
 app.listen(3000, () => {
     connectDB()
-    console.log("Server is Running on http://localhost:3000")
+    console.log("Server is Running on backend")
 })
 
